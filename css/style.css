@@ -56,6 +56,16 @@ code, pre {
   flex-direction: column;
 }
 
+.main-section .grid {
+  gap: 0;
+}
+
+.main-section .grid .card {
+  text-align: center;
+  padding: 0;
+  margin: 0.8rem;
+}
+
 .container {
   max-width: 1100px;
   padding: 0 40px;
@@ -502,19 +512,19 @@ code, pre {
   font-size: 1.2rem;
 }
 
-.sm {
+.text-sm {
   font-size: 1rem;
 }
 
-.md {
+.text-md {
   font-size: 2rem;
 }
 
-.lg {
+.text-lg {
   font-size: 3rem;
 }
 
-.xl {
+.text-xl {
   font-size: 4rem;
 }
 
@@ -548,6 +558,10 @@ code, pre {
 
 .text-white {
   color: #fff;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 .flex {

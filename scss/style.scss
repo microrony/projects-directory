@@ -16,5 +16,17 @@
   }
 }
 
+.main-section {
+  .grid {
+    gap: 0;
+
+    .card {
+      text-align: center;
+      padding: 0;
+      margin: 0.8rem;
+    }
+  }
+}
+
 @import 'utilities';
 @import 'responsive';
