@@ -43,6 +43,19 @@ code, pre {
   height: 0;
 }
 
+#header hr {
+  border: 3px solid #047aed;
+  width: 60px;
+}
+
+#header .logo {
+  font-weight: bold;
+}
+
+#header .flex {
+  flex-direction: column;
+}
+
 .container {
   max-width: 1100px;
   padding: 0 40px;
