@@ -10,8 +10,8 @@
 // Others
 
 .card {
-  @include set-background($white-color);
-  box-shadow: 0 3px 10px rgba($color: #000000, $alpha: 0.2);
+  @include set-background($dark-color);
+  box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.2);
   border-radius: 10px;
   padding: 1.5rem;
   margin: 0.8rem;
