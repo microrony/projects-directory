@@ -72,7 +72,7 @@ code, pre {
 .main-section .grid .card:hover {
   outline: none;
   transform: scale(1.03);
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 .main-section .grid .card .live-preview {
@@ -85,7 +85,7 @@ code, pre {
   position: absolute;
   transform: translateY(-5px);
   z-index: 9999;
-  transition: background .3s ease-in;
+  transition: background 0.3s ease-in;
 }
 
 .main-section .grid .card .live-preview a {
@@ -111,19 +111,23 @@ code, pre {
   font-size: 0.6rem;
   border-radius: 5px;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 .main-section .grid .card .code {
-  font-size: .8rem;
+  font-size: 0.8rem;
   justify-content: space-between;
-  padding: 1rem .9rem;
+  padding: 1rem 0.9rem;
   background-color: #f4f4f4;
   color: #002240;
 }
 
 .main-section .grid .card .code a {
   color: #002240;
+}
+
+footer {
+  height: 20vh;
 }
 
 .container {
