@@ -115,8 +115,9 @@ code, pre {
 }
 
 .main-section .grid .card .code {
+  font-size: .8rem;
   justify-content: space-between;
-  padding: 1rem .8rem;
+  padding: 1rem .9rem;
   background-color: #f4f4f4;
   color: #002240;
 }
@@ -135,7 +136,7 @@ code, pre {
 .card {
   background-color: #002240;
   color: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 1.5rem;
   margin: 0.8rem;

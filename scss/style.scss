@@ -74,8 +74,9 @@
       }
 
       .code {
+        font-size: .8rem;
         justify-content: space-between;
-        padding: 1rem .8rem;
+        padding: 1rem .9rem;
         @include set-background($light-color);
 
         a {
