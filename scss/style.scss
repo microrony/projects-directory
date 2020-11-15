@@ -19,7 +19,7 @@
 // Main Section
 
 .main-section {
-  // height: 90vh;
+  height: auto;
 
   .grid {
     gap: 0;
@@ -91,7 +91,14 @@
 // Footer
 
 footer {
-  height: 20vh;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+
+  ul li {
+    margin: 0 .5rem;
+  }
 }
 
 

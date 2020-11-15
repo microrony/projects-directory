@@ -56,6 +56,10 @@ code, pre {
   flex-direction: column;
 }
 
+.main-section {
+  height: auto;
+}
+
 .main-section .grid {
   gap: 0;
   overflow: visible;
@@ -127,7 +131,14 @@ code, pre {
 }
 
 footer {
-  height: 20vh;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+footer ul li {
+  margin: 0 .5rem;
 }
 
 .container {
