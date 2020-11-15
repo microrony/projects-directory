@@ -110,8 +110,8 @@ code, pre {
 }
 
 .card {
-  background-color: #fff;
-  color: #002240;
+  background-color: #002240;
+  color: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 1.5rem;
