@@ -17,14 +17,25 @@
 }
 
 .main-section {
+  // height: 90vh;
+
   .grid {
     gap: 0;
+    overflow: visible;
 
     .card {
       text-align: center;
       padding: 0;
       margin: 0.8rem;
       position: relative;
+      transition: all 0.3s linear;
+      
+
+      &:hover {
+        outline: none;
+        transform: scale(1.03);
+        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.2);
+      }
 
       .live-preview {
         @include set-background($primary-color);
@@ -36,6 +47,10 @@
         transform: translateY(-5px);
         z-index: 9999;
         transition: background .3s ease-in;
+
+        a {
+          color: $white-color;
+        }
 
         &:hover {
           @include set-background($dark-color);
@@ -55,6 +70,16 @@
           border-radius: 5px;
           text-transform: uppercase;
           letter-spacing: .2rem;
+        }
+      }
+
+      .code {
+        justify-content: space-between;
+        padding: 1rem .8rem;
+        @include set-background($light-color);
+
+        a {
+          color: $dark-color;
         }
       }
     }
